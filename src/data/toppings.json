@@ -1,0 +1,12 @@
+[
+    { "name": "Pepperoni", "image": "pepperoni.png" },
+    { "name": "Mushrooms", "image": "mushrooms.png" },
+    { "name": "Onions", "image": "onions.png" },
+    { "name": "Sausage", "image": "sausage.png" },
+    { "name": "Bacon", "image": "bacon.png" },
+    { "name": "Extra Cheese", "image": "cheese.png" },
+    { "name": "Black Olives", "image": "blackolives.png" },
+    { "name": "Green Peppers", "image": "greenpeppers.png" },
+    { "name": "Pineapple", "image": "pineapple.png" },
+    { "name": "Spinach", "image": "spinach.png" }
+]

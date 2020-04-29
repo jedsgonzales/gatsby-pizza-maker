@@ -1,0 +1,5 @@
+[
+    { "name": "normal", "price": 0 },
+    { "name": "thin", "price": 2 },
+    { "name": "thick", "price": 4 }
+]

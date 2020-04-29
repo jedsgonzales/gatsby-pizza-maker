@@ -1,0 +1,5 @@
+[
+    { "name": "small", "price": 8, "maxIngredients": 5 },
+    { "name": "medium", "price": 10, "maxIngredients": 7 },
+    { "name": "large", "price": 12, "maxIngredients": 9 }
+]
