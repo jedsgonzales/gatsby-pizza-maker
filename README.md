@@ -27,7 +27,7 @@ using ApolloProvider that wraps the application components. It can also be done 
     Navigate into your new site’s directory, install modules and start it up.
 
     ```shell
-    cd pizza-customizer/
+    cd gatsby-pizza-maker/
     npm i
     gatsby develop
     ```
