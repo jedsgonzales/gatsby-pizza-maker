@@ -10,7 +10,7 @@ interface Props {
 }
 
 const ToppingImage = ({ filepath }:Props) => {
-  
+  //query to dynamically load topping images
   const imageQuery = gql`
     query ToppingImgQuery ($filename: String) {
       toppingsImage: file(relativePath: { eq: $filename }) {
@@ -27,11 +27,12 @@ const ToppingImage = ({ filepath }:Props) => {
     }
   `;
 
+  //query status
   const { data, loading, error } = useQuery(
     imageQuery,
     {
       variables: {
-        filename: filepath
+        filename: `toppings/${filepath}`
       }
     });
 
